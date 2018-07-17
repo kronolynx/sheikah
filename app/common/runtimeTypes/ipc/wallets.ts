@@ -19,3 +19,6 @@ export const EncryptWalletParams = t.intersection([
 ])
 
 export type EncryptWalletParams = t.TypeOf<typeof EncryptWalletParams>
+
+export const EncryptWalletResponse = t.voidType
+export type EncryptWalletResponse = t.TypeOf<typeof EncryptWalletResponse>
